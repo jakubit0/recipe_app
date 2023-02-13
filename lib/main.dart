@@ -61,6 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                 );
                 },
+                  child: buildRecipeCard(Recipe.samples[index]),
               );
             }
             ),
