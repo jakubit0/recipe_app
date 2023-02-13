@@ -37,7 +37,8 @@ class RecipeDetail extends StatefulWidget {
                 widget.recipe.label,
                 style: const TextStyle(fontSize: 18),
               ),
-              //TODO: Add Expanded
+              //TODO: Add Expanded here
+              //TODO: Add Slider() here
             ],
           ),
         ),
