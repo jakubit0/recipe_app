@@ -48,8 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: ListView.builder(
             itemCount: Recipe.samples.length,
             itemBuilder: (BuildContext context, int index) {
-              //TODO: Update to return Recipe card
-              return Text(Recipe.samples[index].label);
+              //TODO: Add GestureDetector
+              return buildRecipeCard(Recipe.samples[index]);
             }
             ),
       ),
@@ -63,6 +63,6 @@ class _MyHomePageState extends State<MyHomePage> {
           Text(recipe.label),
         ],
       ),
-    )
+    );
   }
 }
