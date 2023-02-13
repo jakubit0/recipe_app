@@ -55,5 +55,14 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
-  //TODO: Add buildRecipeCard() here
+  Widget buildRecipeCard(Recipe recipe){
+    return Card(
+      child: Column(
+        children: <Widget> [
+          Image(image: AssetImage(recipe.imageUrl)),
+          Text(recipe.label),
+        ],
+      ),
+    )
+  }
 }
